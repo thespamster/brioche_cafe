@@ -14,21 +14,25 @@ body {
   height: 75dvh;
   width: 100%;
   padding: 5px;
-  background: url('../img/coffee_machine.jpeg') no-repeat center center;
+  background: url('../img/coffee-machine.webp') no-repeat center center;
   background-size: cover; 
+}
+
+.navbar-icon-size{
+  size: 64px 64px;
 }
 
 .wall-pic {
   height: 100dvh;
   width: 100%;
-  background: url('../img/stone_wall.jpeg') no-repeat center center;
+  background: url('../img/stone-wall.webp') no-repeat center center;
   background-size: cover;
 }
 
 .nexto-wall-pic {
   height: 100dvh;
   width: 100%;
-  background: url('../img/coffee_plant.png') no-repeat bottom left;
+  background: url('../img/coffee-plant.webp') no-repeat bottom left;
   background-size: 250px 250px;
 }
 
@@ -100,7 +104,7 @@ footer a {
 }
 
 .background-beans-right {
-  background: url('../img/coffee_beans.png') no-repeat right bottom;
+  background: url('../img/coffee-beans.webp') no-repeat right bottom;
   background-size: 96px 96px;
   height: 25dvh;
   width: 50%;
