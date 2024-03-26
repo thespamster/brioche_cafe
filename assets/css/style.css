@@ -1,0 +1,135 @@
+/* ---- import required Google fonts ---- */
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Delius&family=Roboto:wght@400;500;700&display=swap'); 
+
+/* ---- new code for traceygardengal website ---- */
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 5px;
+}
+
+.home-image {
+  height: 75dvh;
+  width: 100%;
+  padding: 5px;
+  background: url('../img/coffee_machine.jpeg') no-repeat center center;
+  background-size: cover; 
+}
+
+.wall-pic {
+  height: 100dvh;
+  width: 100%;
+  background: url('../img/stone_wall.jpeg') no-repeat center center;
+  background-size: cover;
+}
+
+.nexto-wall-pic {
+  height: 100dvh;
+  width: 100%;
+  background: url('../img/coffee_plant.png') no-repeat bottom left;
+  background-size: 250px 250px;
+}
+
+.brand-font {
+  font-family: "Caveat", sans-serif;
+  font-weight: 700;
+  font-size: 2em !important;
+}
+
+.navbar-color {
+  background-color: rgba(255, 255, 255, 0.40);
+  font-weight: 700;
+}
+
+.nav-link:hover {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+#about-brioche-style {
+  width: 100%;
+  padding: 5px;
+  min-height: 25dvh;
+  font-size: 1rem;
+  background-color: rgba(88, 90, 89, 0.15);
+}
+
+.back-to-top { 
+  width: 100%;
+  height: 10dvh;
+}
+
+#brioche-quote {
+  font-family: "Caveat", sans-serif;
+  font-weight: 400;
+  font-size: calc(1em + 2vw);
+}
+
+.map-responsive {
+  position:relative;
+  height: 0;
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height:50dvh;
+  width:100%;
+  position:absolute;
+}
+
+.next-to-map {
+  height: 50dvh;
+  width: 100%;
+  background: url('../img/fruit_cake.jpeg') no-repeat center center;
+  background-size: cover;
+}
+
+.footer-style {
+  background-color: rgba(88, 90, 89, 0.15);
+  height: 2rem;
+  padding: 5px;
+  width: 100%;
+}
+
+footer a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  width: 50%;
+}
+
+.background-beans-right {
+  background: url('../img/coffee_beans.png') no-repeat right bottom;
+  background-size: 96px 96px;
+  height: 25dvh;
+  width: 50%;
+}
+
+.style-404 {
+  height: 100dvh;
+  width: 100%;
+  padding: 5px;
+  background: url('../img/404.png') no-repeat center;
+  background-size: 384px 384px;
+} 
+
+.style-text-404 {
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 1.5em;
+  color: rgb(0, 0, 0);
+}
+
+.page-text-color {
+  color: rgb(0, 0, 0);
+  font-size: 1em;
+}
+
+.link-text-color {
+  color: rgb(16, 147, 195);
+  font-size: 1.2em;
+  font-weight: 700;
+  text-decoration: none;
+}

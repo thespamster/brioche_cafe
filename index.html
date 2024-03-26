@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="the homepage for the Brioche cafe.">
+
+  <!--  link to custom css code / bootstrap v5.3 -->
+
+  <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+  <link rel="stylesheet" href="assets/css/bootstrap.css" type="text/css">
+
+  <!--  preload mainpage images and required google fonts -->
+
+  <link rel="preload" fetchpriority="high" as="image" href="assets/img/coffee_machine.jpeg" type="image/jpeg">
+  <link rel="prefetch" href="assets/img/coffee_beans.png" type="image/png">
+  <link rel="prefetch" href="assets/img/coffee_plant.png" type="image/png">
+  <link rel="prefetch" href="assets/img/coffee.png" type="image/png">
+  <link rel="prefetch" crossorigin="anonymous"
+    href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Delius&family=Roboto:wght@400;500;700&display=swap">
+
+  <!-- browser tab title and a custom favicon for the website -->
+
+  <title>The Brioche</title>
+  <link rel="shortcut icon" href="assets/img/favicon.ico">
+</head>
+
+<!-- bootstrap navbar -->
+
+<body id="home-page">
+  <div class="row justify-content-center">
+    <div class="col-10 col-lg-11 d-flex">
+      <div class="home-image">
+        <nav class="navbar navbar-expand-lg navbar-color">
+          <div class="container-fluid">
+            <a class="navbar-brand brand-font" href="#home-page" aria-label="home"><img
+                src="assets/img/coffee_color.png" alt="coffee cup and saucer"> The Brioche</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="about-the-brioche" href="#about-brioche">The Brioche</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" name="nav-link" aria-current="page" href="#food">Food</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="garden-gallery" href="#drinks">Drink</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" name="nav-link" aria-current="page" href="#contact-brioche">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <div class="row justify-content-center py-2">
+    <div class="col-10 col-lg-11">
+      <div id="about-brioche">
+        <section role="contentinfo" id="about-brioche-style" aria-label="A brief history of the Brioche cafe."
+          class="d-flex-column align-items-center justify-content-center">
+          <p>
+            Welcome to the Brioche's website. The Brioche is a small independent cafe located in the heart of Totnes,
+            Devon.
+          </p>
+          <p>
+            Established back in the 70's by a French lady, hence the name 'Brioche' the cafe has been serving the local
+            community for
+            over 50 years. In that time it has become a popular spot for locals and tourists alike to enjoy a bite to
+            eat, a coffee,
+            or a piece of cake. The current owner has built on this reputation over the last 17 years.
+          </p>
+          <p>
+            Offering menus that cater to all tastes, with traditional English breakfasts that include veggie and vegan
+            options the
+            Brioche has something for everyone. At lunchtime why not try one of our small batch homemade soups or a
+            freshly made
+            toastie, choose from a selection of tasty fillings.
+          </p>
+        </section>
+      </div>
+    </div>
+  </div>
+  <div class="row d-flex justify-content-center">
+    <div class="col-11 col-lg-6">
+      <div class="wall-pic"></div>
+    </div>
+    <div class="nexto-wall-pic col-11 col-lg-5 d-flex justify-content-center">
+      <div class="col align-self-start"><h5><p><q>Some text here</q></p></h5></div>
+      <div class="col align-self-center"><h5><p><q>Some more text here</q></p></h5></div>
+      <div class="col align-self-end"><h5><p><q>Some other text here</q></p></h5></div>
+    </div>
+  </div>
+
+  <!-- contact icons and a couple of quotes -->
+
+  <div class="row" id="contact-brioche">
+    <div class="col-11 d-flex justify-content-center p-3">
+      <q id="brioche-quote"><span>Looking for work. Email your CV by clicking on the icon below.</span></q>
+    </div>
+  </div>
+  <div class="row pb-5">
+    <div class="col-11 d-flex align-items-center justify-content-evenly">
+      <a href="mailto:website-info@brioche.com" target="_blank" aria-label="send an email to the Brioche (opens in a new tab)">
+        <img src="assets/img/email.png" alt="email icon" aria-hidden="true">
+      </a>
+      <a href="#" target="_blank" aria-label="link to facebook (opens in a new tab)">
+        <img src="assets/img/facebook.png" alt="facebook icon" aria-hidden="true">
+      </a>
+      <a href="#" target="_blank" aria-label="link to instagram (opens in a new tab)">
+        <img src="assets/img/instagram.png" alt="instagram icon" aria-hidden="true">
+      </a>
+      <a href="#" target="_blank" aria-label="link to twitter (opens in a new tab)">
+        <img src="assets/img/twitter.png" alt="twitter icon" aria-hidden="true">
+      </a>
+    </div>
+    <div class="row">
+      <div class="col-11 d-flex justify-content-center p-3">
+        <q id="brioche-quote"><span>Find us on social media by clicking on the icons above.</span></q>
+      </div>
+    </div>
+    <div class="col-11 back-to-top d-flex justify-content-center align-items-center">
+      <a href="#home-page" role="button" class="btn btn-outline-primary" aria-label="back-to-top">Back to Top</a>
+    </div>
+  </div>
+
+  <!-- drinks info -->
+
+  <div class="row justify-content-center">
+    <div class="col-11">
+      <div id="drinks">
+        <section role="contentinfo" id="about-brioche-style" aria-label="info about the many drinks we sell."
+          class="d-flex-column align-items-center justify-content-center">
+          <p>
+            We believe that a great drink should accompany great food. We serve a high quality fairtrade ground coffee from Puro.
+            We also believe that you shouldn't get a lesser coffee if you prefer a decaf drink so we serve a decaf coffee from the
+            same maker.
+          </p>
+          <p>
+            The tea we serve is the classic PG Tips and Tetley if you prefer a decaf cuppa. For our extensive range of herbal teas
+            we always use a high quality brand such as Tea Pigs or similar.
+          </p>
+          <p>
+            We also carry a range of cold drinks including cans of Coke, Diet Coke, Tango, 7-up, Rio and others. Bottled still
+            and sparkling water. We also have a range of fruit juices and smoothies plus a selection of alcoholic beverages if 
+            you fancy a drink with your meal.
+          </p>
+        </section>
+      </div>
+    </div>
+  </div>
+  
+
+  <!-- footer behaviour set with bootstrap and custom css. social media icons from flaticon (credit in readme).  -->
+
+  <footer class="row p-5 justify-content-center">
+    <div class="col-11 d-flex align-items-end footer-style">
+      <a href="https://www.4uxdesign.com" target="_blank" aria-label="go to 4uxdesign.com (opens in a new tab)">
+        © 4uxdesign.com 2024</a>
+      <div class="background-beans-right"></div>
+    </div>
+  </footer>
+  <script src="assets/js/bootstrap.bundle.js"></script>
+</body>
