@@ -29,4 +29,4 @@ The owner of the Brioche gave me some guidelines as to what was wanted.
 ![](assets/img/final_glighthouse_tests0324.png)
 - Resource hint validator [DebugBear](https://www.debugbear.com/resource-hint-validator)
 
-Note: the site layout is complete. The text needs to be checked by the myself and the owner and a final 
+Note: the site layout is complete. The text needs to be checked by the myself and the owner and any final adjustments made.
