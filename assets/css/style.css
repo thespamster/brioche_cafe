@@ -8,6 +8,7 @@ body {
   width: 100%;
   margin: 0;
   padding: 5px;
+  background-color: rgba(88, 90, 89, 0.15) !important;
 }
 
 .home-image {
@@ -18,7 +19,22 @@ body {
   background-size: cover; 
 }
 
+.coffee-pic {
+  height: 100dvh;
+  width: 100%;
+  background: url('../img/pura-coffee.webp') no-repeat center center;
+  background-size: cover;
+}
+
+.cake-pic {
+  height: 100dvh;
+  width: 100%;
+  background: url('../img/fruit-cake.webp') no-repeat center center;
+  background-size: cover;
+}
+
 .navbar-icon-size{
+  background-color: rgba(0, 0, 0, 1.0);
   size: 64px 64px;
 }
 
@@ -56,6 +72,11 @@ body {
   padding: 5px;
   min-height: 25dvh;
   font-size: 1rem;
+} 
+
+#about-drink-style {
+  min-height: 25dvh;
+  font-size: 1rem;
   background-color: rgba(88, 90, 89, 0.15);
 }
 
@@ -70,31 +91,15 @@ body {
   font-size: calc(1em + 2vw);
 }
 
-.map-responsive {
-  position:relative;
-  height: 0;
-}
-
-.map-responsive iframe {
-  left: 0;
-  top: 0;
-  height:50dvh;
-  width:100%;
-  position:absolute;
-}
-
-.next-to-map {
-  height: 50dvh;
-  width: 100%;
-  background: url('../img/fruit_cake.jpeg') no-repeat center center;
-  background-size: cover;
-}
-
 .footer-style {
   background-color: rgba(88, 90, 89, 0.15);
   height: 2rem;
   padding: 5px;
   width: 100%;
+}
+
+#bandw {
+  filter: grayscale(100%);
 }
 
 footer a {
@@ -136,4 +141,15 @@ footer a {
   font-size: 1.2em;
   font-weight: 700;
   text-decoration: none;
+}
+
+.website-text-style {
+  font-family: "Delius", sans-serif;
+  font-weight: 400;
+  font-size: 1.2em;
+}
+
+.quote-text-style {
+  font-family: Caveat, sans-serif;
+  font-weight: 400;
 }
