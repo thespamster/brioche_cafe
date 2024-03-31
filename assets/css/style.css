@@ -6,13 +6,12 @@
 
 body {
   width: 100%;
-  margin: 0;
   padding: 5px;
-  background-color: rgba(88, 90, 89, 0.15) !important;
+  background-color: rgba(255, 255, 255, 0.15) !important;
 }
 
 .home-image {
-  height: 75dvh;
+  height: 25dvh;
   width: 100%;
   padding: 5px;
   background: url('../img/coffee-machine.webp') no-repeat center center;
@@ -45,11 +44,9 @@ body {
   background-size: cover;
 }
 
-.nexto-wall-pic {
-  height: 100dvh;
-  width: 100%;
-  background: url('../img/coffee-plant.webp') no-repeat bottom left;
-  background-size: 250px 250px;
+#plant-style {
+  height: 128px;
+  width: 128px;
 }
 
 .brand-font {
@@ -88,7 +85,7 @@ body {
 #brioche-quote {
   font-family: "Caveat", sans-serif;
   font-weight: 400;
-  font-size: calc(1em + 2vw);
+  font-size: calc(1em + 1.25vw);
 }
 
 .footer-style {
@@ -146,10 +143,18 @@ footer a {
 .website-text-style {
   font-family: "Delius", sans-serif;
   font-weight: 400;
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 .quote-text-style {
   font-family: Caveat, sans-serif;
   font-weight: 400;
+}
+
+.button-style {
+  border-radius: 0 !important;
+}
+
+.alert-style {
+  border-radius: 0 !important;
 }

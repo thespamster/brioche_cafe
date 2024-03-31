@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -30,17 +29,19 @@
 
 <div class="row justify-content-center">
   <div class="col-11 d-flex">
-<div class="w-100 alert alert-warning alert-dismissible fade show" role="alert">
-  <strong>Cookie Policy:</strong> Although this site doesn't use cookies the embedded Google map may do. By continuing to view this site you are giving your consent to these cookies. You can manage the cookies stored on your device in your browser settings.
-  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-</div>
-</div>
+    <div class="w-100 alert alert-success alert-dismissible fade show alert-style" role="alert">
+      <strong>Cookie Policy:</strong> Although this site doesn't use cookies the embedded Google map may do. By
+      continuing to view this site you are giving your consent to these cookies. You can manage the cookies stored on
+      your device in your browser settings.
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+  </div>
 </div>
 
 <!-- bootstrap navbar -->
 
 <body id="home-page">
-  <div class="row justify-content-center">
+  <div class="row justify-content-center align-items-center">
     <div class="col-11 d-flex">
       <div class="home-image">
         <nav class="navbar navbar-expand-lg navbar-color">
@@ -55,13 +56,13 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link" aria-current="about-the-brioche" href="#about-brioche">About the Brioche</a>
+                  <a class="nav-link" href="#about-brioche" aria-current="page">About the Brioche</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" name="nav-link" aria-current="page" href="#food">Food</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" aria-current="garden-gallery" href="#drinks">Drink</a>
+                  <a class="nav-link" aria-current="page" href="#drinks">Drink</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" name="nav-link" aria-current="page" href="#contact-brioche">Contact Us</a>
@@ -83,14 +84,16 @@
             Devon.
           </p>
           <p class="website-text-style">
-            Established back in the 70's by a Spanish lady called Remy, the 'Brioche' was a place where students would come and hang out.
-            Over 50 years later it  is still a very popular spot for locals and tourists alike to enjoy a bite to
+            Established back in the 70's by a Spanish lady called Remy, the 'Brioche' was a place where students would
+            come and hang out.
+            Over 50 years later it is still a very popular spot for locals and tourists alike to enjoy a bite to
             eat and something drink. The current owner has been running the cafe for the last 17 years or so.
           </p>
           <p class="website-text-style">
             Offering menus that cater to all tastes, with traditional English breakfasts that include veggie and vegan
-            options the Brioche has something for everyone. At lunchtime why not try one of our small batch homemade soups, a
-            freshly made toastie, choose from a selection of tasty fillings. 
+            options the Brioche has something for everyone. At lunchtime why not try one of our small batch homemade
+            soups, a
+            freshly made toastie, choose from a selection of tasty fillings.
           </p>
         </section>
       </div>
@@ -100,23 +103,35 @@
     <div class="col-11 col-lg-6">
       <div class="wall-pic"></div>
     </div>
-    <div class="nexto-wall-pic col-11 col-lg-5 d-flex justify-content-center">
-      <div class="col align-self-start quote-text-style"><h2><p><q>Enjoyed our lunch at this Café. Wonderful service with good food and plenty of choices.</q></p></h5></div>
-      <div class="col align-self-center quote-text-style"><h3><p><q>Had a lovely light lunch of toast, avocado, halloumi and tomato. Absolutely delicious! Friendly helpful staff.</q></p></h5></div>
-      <div class="col align-self-end quote-text-style"><h2><p><q>Very well cooked, using fine ingredients. Lovely atmosphere and friendly  staff.</q></p></h5></div>
+    <div class="nexto-wall-pic col-11 col-lg-5 d-flex justify-content-center text-center p-2">
+      <div class="col align-self-start quote-text-style">
+        <h2>Google review: <p><q>Enjoyed our lunch at this Café. Wonderful service with good food and plenty of
+              choices.</q></p>
+          </h5>
+      </div>
+      <div class="col align-self-center quote-text-style d-none d-lg-block">
+        <h2>
+          <p><img id="plant-style" src="assets/img/coffee-plant.webp"></p>
+          </h5>
+      </div>
+      <div class="col align-self-end quote-text-style d-none d-lg-block">
+        <h2>Google review: <p><q>Very well cooked, using fine ingredients. Lovely atmosphere and friendly staff.</q></p>
+          </h5>
+      </div>
     </div>
   </div>
 
   <!-- contact icons and a couple of quotes -->
 
-  <div class="row" id="contact-brioche">
-    <div class="col-11 d-flex justify-content-center p-3">
+  <div class="row d-flex justify-content-center" id="contact-brioche">
+    <div class="col-11 d-flex justify-content-center text-center py-2">
       <q id="brioche-quote"><span>Looking for work. Email your CV by clicking on the icon below.</span></q>
     </div>
   </div>
-  <div class="row pb-5">
+  <div class="row">
     <div class="col-11 d-flex align-items-center justify-content-evenly">
-      <a href="mailto:website-info@brioche.co.uk" target="_blank" aria-label="send an email to the Brioche (opens in a new tab)">
+      <a href="mailto:website-info@brioche.co.uk" target="_blank"
+        aria-label="send an email to the Brioche (opens in a new tab)">
         <img src="assets/img/email.png" alt="email icon" aria-hidden="true">
       </a>
       <a href="#" target="_blank" aria-label="link to facebook (opens in a new tab)">
@@ -129,33 +144,38 @@
         <img src="assets/img/twitter.png" alt="twitter icon" aria-hidden="true">
       </a>
     </div>
-    <div class="row">
-      <div class="col-11 d-flex justify-content-center p-3">
+    <div class="row d-flex justify-content-center">
+      <div class="col-11 d-flex justify-content-center text-center p-2">
         <q id="brioche-quote"><span>Find us on social media by clicking on the icons above.</span></q>
       </div>
     </div>
     <div class="col-11 back-to-top d-flex justify-content-center align-items-center">
-      <a href="#home-page" role="button" class="btn btn-dark" aria-label="back-to-top">Back to Top</a>
+      <a href="#home-page" role="button" class="btn btn-dark button-style" aria-label="back-to-top">Back to Top</a>
     </div>
   </div>
 
   <!-- drinks info -->
 
   <div class="row d-flex justify-content-center align-items-center" id="drinks">
-    
+
     <div class="col-11 col-lg-5 flex-column">
       <p class="website-text-style">
-        We believe that a great drink should accompany great food. We serve a high quality fairtrade ground coffee from Puro.
-        We also believe that you shouldn't get a lesser coffee if you prefer a decaf drink so we serve a decaf coffee from the
+        We believe that a great drink should accompany great food. We serve a high quality fairtrade ground coffee from
+        Puro.
+        We also believe that you shouldn't get a lesser coffee if you prefer a decaf drink so we serve a decaf coffee
+        from the
         same maker.
       </p>
       <p class="website-text-style">
-        If you fancy a cuppa then it's classic PG Tips or Tetley if you prefer a decaf cuppa. For our extensive range of herbal teas
+        If you fancy a cuppa then it's classic PG Tips or Tetley if you prefer a decaf cuppa. For our extensive range of
+        herbal teas
         we always use a high quality brand such as Tea Pigs, Taylor's or similar.
       </p>
       <p class="website-text-style">
-        We also offer a range of cold drinks including cans of Coke, Diet Coke, Tango, 7-up, Rio and others. Bottled still
-        and sparkling water,  a range of fruit juices, smoothies and milkshakes plus a selection of alcoholic beverages if 
+        We also offer a range of cold drinks including cans of Coke, Diet Coke, Tango, 7-up, Rio and others. Bottled
+        still
+        and sparkling water, a range of fruit juices, smoothies and milkshakes plus a selection of alcoholic beverages
+        if
         you fancy a drink with your meal.
       </p>
     </div>
@@ -164,43 +184,51 @@
     </div>
   </div>
 
-  <!-- food info --> 
+  <!-- food info -->
 
   <div class="row d-flex justify-content-center align-items-center" id="food">
     <div class="col-11 col-lg-6">
       <div class="cake-pic"></div>
     </div>
-    <div class="col-11 col-lg-5 flex-column">
+    <div class="col-11 col-lg-5 flex-column pt-2">
       <p class="website-text-style">
-        We have two menus, our breakfast menu which is available from 0900hrs until 1145hrs and our lunch menu which is available from
-        1145hrs until 1445hrs. Our specials board forms part of our lunch menu and usually comprises a couple of small batch homestyle
+        We have two menus, our breakfast menu which is available from 0900hrs until 1145hrs and our lunch menu which is
+        available from
+        1145hrs until 1445hrs. Our specials board forms part of our lunch menu and usually comprises a couple of small
+        batch homestyle
         soups and a jacket potato plus filling.
       </p>
       <p class="website-text-style">
-        Our breakfast menu includes traditional English breakfasts with veggie and vegan options, scrambled egg on toast with options that
-        include sausage, bacon, mushrooms plus others. We're very happy to cater for any dietary requirements you may have so please ask and we will do 
+        Our breakfast menu includes traditional English breakfasts with veggie and vegan options, scrambled egg on toast
+        with options that
+        include sausage, bacon, mushrooms plus others. We're very happy to cater for any dietary requirements you may
+        have so please ask and we will do
         our best to accommodate you.
       </p>
       <p class="website-text-style">
-        For lunch we offer a range of toasties, sandwiches, salads, jacket potatoes, soups and specials and of course we have a range of locally
-        sourced cakes that make a great accompaniment to your main meal or indeed can be enjoyed on their own with a cuppa.
+        For lunch we offer a range of toasties, sandwiches, salads, jacket potatoes, soups and specials and of course we
+        have a range of locally
+        sourced cakes that make a great accompaniment to your main meal or indeed can be enjoyed on their own with a
+        cuppa.
       </p>
     </div>
-    
   </div>
 
   <!-- google maps -->
 
-  <div class="row d-flex justify-content-center py-3">
-  <div class="col-11 d-flex justify-content-center">
-    <iframe id="bandw" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2541.505614937177!2d-3.6921411235721493!3d50.43168217158859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486d1ce975a3740d%3A0xade4c147fe011c04!2sThe%20Brioche%20Cafe!5e0!3m2!1sen!2suk!4v1711627948881!5m2!1sen!2suk" width="1500" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-  </div>
+  <div class="row d-flex justify-content-center pt-4">
+    <div class="col-11 d-flex justify-content-center">
+      <iframe id="bandw"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2541.505614937177!2d-3.6921411235721493!3d50.43168217158859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486d1ce975a3740d%3A0xade4c147fe011c04!2sThe%20Brioche%20Cafe!5e0!3m2!1sen!2suk!4v1711627948881!5m2!1sen!2suk"
+        width="1500" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
   </div>
   <div class="col-11 back-to-top d-flex justify-content-center align-items-center">
-    <a href="#home-page" role="button" class="btn btn-dark" aria-label="back-to-top">Back to Top</a>
+    <a href="#home-page" role="button" class="btn btn-dark button-style" aria-label="back-to-top">Back to Top</a>
   </div>
 
-  <!-- footer behaviour set with bootstrap and custom css. social media icons from flaticon (credit in readme).  -->
+  <!-- footer behaviour set with bootstrap.  -->
 
   <footer class="row p-5 justify-content-center">
     <div class="col-11 d-flex align-items-end footer-style">
