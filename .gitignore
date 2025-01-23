@@ -1,0 +1,15 @@
+.venv
+
+/node_modules
+/coverage
+/cli
+/lib
+/peers
+/example
+.vscode
+.DS_Store
+.parcel-cache
+
+/src
+
+input.css
