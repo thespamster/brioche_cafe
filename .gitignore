@@ -1,5 +1,3 @@
-.venv
-
 /node_modules
 /coverage
 /cli
@@ -9,7 +7,3 @@
 .vscode
 .DS_Store
 .parcel-cache
-
-/src
-
-input.css
